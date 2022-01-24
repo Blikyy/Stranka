@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@199&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-weight: 100;
+    background: radial-gradient(#2e2d35,#000000);
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+    background-color: #2e2d35;
+}
+
+.jmeno{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.odkaz{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.home{
+    margin-right: 50px;
+}
+
+.my_work{
+    margin-left: 50px;
+    text-decoration: line-through;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.img-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.spacing{
+    padding-right: 30px !important;
+}
+
+.gif{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::-webkit-scrollbar{
+    width: 18px;
+}
+
+::-webkit-scrollbar-track{
+    border: 5px white;
+    box-shadow: inset 0 0 15px gray;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(gray,black);
+}
